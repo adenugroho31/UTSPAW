@@ -1,0 +1,56 @@
+html, body {
+    height: 100%; /* Pastikan body dan html mengambil seluruh tinggi layar */
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Center secara horizontal */
+    align-items: center; /* Center secara vertikal */
+    background-color: #1a1a2e;
+}
+
+.container {
+    width: 50%;
+    background-color: #16213e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    background-color: #16213e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #0f3460;
+    color: white;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+form input {
+    max-width: 100%; /* Limits input width */
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}

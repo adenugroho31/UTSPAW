@@ -1,0 +1,71 @@
+/* Edit Movie Page Styles */
+body {
+    background-color: #1a1a2e; /* Background biru navy gelap */
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* Teks putih */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #16213e; /* Warna container yang lebih gelap */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Shadow lebih kontras */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffffff; /* Teks putih */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    padding: 10px;
+    font-size: 1.1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #0f3460; /* Latar belakang input biru navy lebih gelap */
+    color: #ffffff; /* Teks putih */
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+input[type="file"] {
+    font-size: 1.1em;
+    color: #ffffff; /* Teks putih */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Warna biru navy untuk tombol */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Warna hover tombol */
+}
+
+img {
+    margin-top: 10px;
+    max-width: 100px;
+    border-radius: 5px;
+}
